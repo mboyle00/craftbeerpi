@@ -53,4 +53,4 @@ class PWM_Step_Up(Automatic):
             socketio.sleep(heating_time2)
             self.switchHeaterOFF()
             socketio.sleep(wait_time2)
-      self.switchHeaterOFF()
+            self.switchHeaterOFF()
